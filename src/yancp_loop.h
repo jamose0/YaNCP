@@ -15,5 +15,7 @@ public:
 	}
 
 	bool prompt(); 
+
+	std::string toPostfix(std::string s);
 };
 #endif
